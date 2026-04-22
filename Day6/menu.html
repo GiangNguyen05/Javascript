@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DemoMenu</title>
+    <link rel="stylesheet" href="menu.css" />
+  </head>
+  <body>
+    <header class="wrap">
+      <div class="title">
+        <h1>G's Demo</h1>
+      </div>
+      <div class="nav">
+        <a href="#" class="menu nav__home">Home</a>
+        <a href="#" class="menu nav__sevices">Sevices</a>
+        <a href="#" class="menu nav__abouts">Abouts</a>
+        <a href="#products-item" class="menu nav__products">Products</a>
+        <a href="#" class="menu nav__contacts">Contacts</a>
+      </div>
+      <form action="/search-results" method="GET" class="search">
+        <label for="search" class="wrap-search">
+          <input
+            type="search"
+            name="search"
+            id="search"
+            placeholder="Tìm kiếm..."
+          />
+          <button type="submit" class="btn-search">OK</button>
+        </label>
+      </form>
+    </header>
+    <button class="add">ADD</button>
+    <button class="dele">Delete</button>
+    <main class="container">
+      <div class="products" id="products-item">
+        <h2>Mặt hàng A</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, ducimus?
+        </p>
+      </div>
+    </main>
+
+    <script src="menu.js"></script>
+  </body>
+</html>
