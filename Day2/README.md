@@ -1,17 +1,15 @@
-#### JS Trainning
-
-1. khác nhau giữa vòng lặp while và dowhile
+## khác nhau giữa vòng lặp while và dowhile
 
 - while: ktra ddkien trước khi chạy
 
 - dowhile: chạy tối thiểu một lần rồi ktra đkien
 
-2. key-word điều khiển
+## key-word điều khiển
 
 - break: dừng hẳn vòng lặp.
 - continue: bỏ qua vòng lặp hiện tại và thực thi tiếp vòng sau.
 
-3. Function
+## Function
 
 - function name(para){statements...};
 - ()=>{statements...}; anounymos function (function vô danh)

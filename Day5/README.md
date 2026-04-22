@@ -1,7 +1,7 @@
-#### JS Trainning
+## DOM (viết tắt của Document Object Model)
 
-DOM (viết tắt của Document Object Model) là một mô hình dạng cây đại diện cho cấu
-trúc của một trang web.
+- là một mô hình dạng cây đại diện cho cấu
+  trúc của một trang web.
 
 - Khi trình duyệt tải trang HTML, nó phân tích (parse) nội dung HTML và tạo ra một
   mô hình dạng cây DOM.
@@ -10,14 +10,17 @@ trúc của một trang web.
 
 - Một số cách phổ biến để truy cập phần tử
 
-✅ document.getElementById(id)
+### ✅ document.getElementById(id)
+
 vd: const element = document.getElementById("userName")
 
-✅ document.querySelector(selector)
+### ✅ document.querySelector(selector)
+
 Dùng để tìm phần tử đầu tiên khớp với CSS selector (id, class, tag, v.v.).
 const firstNote = document.querySelector(".note");
 
-✅ document.querySelectorAll(selector)
+### ✅ document.querySelectorAll(selector)
+
 Dùng để lấy tất cả phần tử khớp với selector, trả về NodeList (giống mảng).
 const allNotes = document.querySelectorAll(".note");
 console.log(allNotes.length);
@@ -32,8 +35,13 @@ console.log(allNotes.length);
 
         - function: hàm xử lý khi sự kiện xảy ra
 
-- innerText: thay đổi nội dung dạng chữ mà ng dùng thấy đc(tính css)
-- innerHTML: cho phép láy và thay đổi nội dung bên trong thẻ html, bao gồm cả thẻ bao nó
+## innerText
+
+- thay đổi nội dung dạng chữ mà ng dùng thấy đc(tính css)
+
+## innerHTML:
+
+- cho phép láy và thay đổi nội dung bên trong thẻ html, bao gồm cả thẻ bao nó
 vd:
 <p id="greeting">Xin chào!</p>
 <script>
