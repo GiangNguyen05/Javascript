@@ -42,6 +42,7 @@ userData.addEventListener("click", function (e) {
   if (e.target.classList.contains("remo")) {
     // Tìm thẻ <tr> cha gần nhất của nút đó và xóa nó
     const row = e.target.closest("tr");
+
     row.remove();
   }
 });
