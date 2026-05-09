@@ -15,13 +15,15 @@
 //   b = 20,
 //   c = 30;
 
-// console.log(a++, ++b, a); // a=10, b=11, a=11
+console.log(a++, ++b, a); // a=10, b=11, a=11
 
-// const introduction = "name: " + name + " age " + person.myAge;
-// console.log(introduction);
-// // = với khai báo khi sử dụng dấu `${}`
-// const intro = `name: ${name}  age: ${person.myAge}` + `${name}`;
-// console.log(intro);
+const introduction = "name: " + name + " age " + person.myAge;
+console.log(introduction);
+// = với khai báo khi sử dụng dấu `${}`
+const intro = `name: ${name}  age: ${person.myAge}` + `${name}`;
+console.log(intro);
+
+// Template literals (backticks) allow for multi-line strings and embedded expressions
 const fullName = `Nguyen Van Giang`;
 let birthYear = 2000;
 let isStudent = false;
